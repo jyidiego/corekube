@@ -91,28 +91,28 @@
          selected to deploy into.
    coreos_image_minions:
      type: string
-     description: Rackspace OnMetal CoreOS Stable (633.1.0) UUID
-     default: "84997bd3-7cdf-4405-8075-137d631f24b4"
+     description: Rackspace OnMetal CoreOS Stable (808.0.0) UUID
+     default: "16f589ce-0b27-470d-b87f-890dbb9e400b"
    coreos_image_discovery:
      type: string
-     description: Rackspace Cloud Servers CoreOS Stable (633.1.0) UUID
-     default: "a41d8b7c-d41b-4369-a180-0734f3b1cd8c"
+     description: Rackspace Cloud Servers CoreOS Stable (808.0.0) UUID
+     default: "2c12f6da-8540-40bc-b974-9a72040173e0"
    coreos_image_overlord:
      type: string
-     description: Rackspace Cloud Servers CoreOS Stable (633.1.0) UUID
-     default: "a41d8b7c-d41b-4369-a180-0734f3b1cd8c"
+     description: Rackspace Cloud Servers CoreOS Stable (808.0.0) UUID
+     default: "2c12f6da-8540-40bc-b974-9a72040173e0"
    coreos_image_master:
      type: string
-     description: Rackspace Cloud Servers CoreOS Stable (633.1.0) UUID
-     default: "a41d8b7c-d41b-4369-a180-0734f3b1cd8c"
+     description: Rackspace Cloud Servers CoreOS Stable (808.0.0) UUID
+     default: "2c12f6da-8540-40bc-b974-9a72040173e0"
    git_command:
      type: string
      description: Git repo checkout command
-     default: "/usr/bin/git clone https://github.com/metral/overlord ; /usr/bin/git -C overlord checkout -qf 96574056d0cc7ad8e52228df76374cb3537af8ba"
+     default: "/usr/bin/git clone https://github.com/metral/overlord ; /usr/bin/git -C overlord checkout -qf 1f37433090ec322df4cdde10ebe6ab7b6387dc8b"
    flannel_url:
      type: string
-     description: Flannel (0.4.0) Binary URL
-     default: "http://a26736f09be9784cb06f-8d30bd32035bc1ac3e9215d2d6eedfc5.r53.cf1.rackcdn.com/flanneld"
+     description: Flannel (0.5.3) Binary URL
+     default: "http://e0c2ab32810737fd07e4-700417495149341ce4d5f2e85f203802.r26.cf1.rackcdn.com/flanneld"
    discovery_net_interface:
      type: string
      description: Host network interface for which the Discovery node will operate over
